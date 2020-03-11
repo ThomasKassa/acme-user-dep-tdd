@@ -1,7 +1,5 @@
 const express = require('express')
 const app = express()
-app.use(require('cors')());
-const pg = require('pg')
 const sequelize = require('sequelize')
 const { STRING, UUID, UUIDV4 } = sequelize
 

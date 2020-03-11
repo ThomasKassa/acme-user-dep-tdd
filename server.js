@@ -5,6 +5,6 @@ const port = process.env.PORT || 3000
 
 db.sync()
 .then( () => {
-    app.listen(port, () => {`Listenging on port ${port}`})
+    app.listen(port, () => {console.log(`Listening on port ${port}`)})
 })
 
